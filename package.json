@@ -1,0 +1,29 @@
+{
+  "name": "wancontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "coverage": "truffle run coverage --network coverage",
+    "migrate": "rm -rf build && truffle migrate --network testnet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeoneline/wanContract_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeoneline/wanContract_template/issues"
+  },
+  "homepage": "https://github.com/codeoneline/wanContract_template#readme",
+  "dependencies": {
+    "solidity-coverage": "^0.7.5",
+    "truffle": "^5.1.24"
+  }
+}
